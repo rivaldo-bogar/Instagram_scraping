@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 
-def generate_instagram_cookies():
+def generate_instagram_cookies():#commend anded
     # Setup Chrome options
     chrome_options = Options()
     # Menghilangkan deteksi bot agar login lebih aman
